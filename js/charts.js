@@ -77,13 +77,13 @@ function buildCharts(sample) {
     console.log(yticks);
 
     // 8. Create the trace for the bar chart. 
-    var barData = [
+    var barData = [{
       x: values,
       y: yticks,
       type: "bar",
       orientation: "h",
       text: labels
-    ];
+    }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
      title: "Top-10 Bacteria Cultures Found"
