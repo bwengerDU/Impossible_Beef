@@ -90,5 +90,5 @@ function buildCharts(sample) {
     };
   });
     // 10. Use Plotly to plot the data with the layout. 
-    plotly.newPlot("bar", barData, barLayout);
+    Plotly.newPlot("bar", barData, barLayout);
 }
