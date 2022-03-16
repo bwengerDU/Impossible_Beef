@@ -88,7 +88,7 @@ function buildCharts(sample) {
     var barLayout = {
      title: "Top-10 Bacteria Cultures Found"
     };
-    // 10. Use Plotly to plot the data with the layout. 
-    plotly.newPlot("bar", barData, barLayout);
   });
 }
+    // 10. Use Plotly to plot the data with the layout. 
+    plotly.newPlot("bar", barData, barLayout);
