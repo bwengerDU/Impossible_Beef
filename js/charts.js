@@ -113,9 +113,9 @@ function buildCharts(sample) {
       margins: {t:10},
       mode: 'closest',
       height: 600,
-      width: 600,
-      paper_bgcolor: 'red',
-      plot_bgcolor: 'gray'
+      width: 800,
+      paper_bgcolor: 'gray',
+      plot_bgcolor: 'white'
     };
 
     // 3. Use Plotly to plot the data with the layout.
