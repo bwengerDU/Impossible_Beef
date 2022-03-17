@@ -94,13 +94,13 @@ function buildCharts(sample) {
     // Deliverable 2-Bubble Chart
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
-      x: otu_ids,
+      x: ids,
       y: sample_values,
       mode: 'markers',
-      text: otu_labels,
+      text: labels,
       marker: {
         size: sample_values,
-        color: otu_ids,
+        color: ids,
         colorscale: 'rainbow'
       }  
     }
