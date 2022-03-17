@@ -109,14 +109,16 @@ function buildCharts(sample) {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: 'Bacteria Cultures Per Sample',
-      x: {title: 'OTU Id'},
-      margins: {t:10}
-      hovermode: 'closest'
+      x: {title: 'OTU IDs'},
+      margins: {t:10},
+      mode: 'closest',
+      height: 600,
       width: 600,
-      paper_bgcolor: 'gray'
+      paper_bgcolor: 'red',
+      plot_bgcolor: 'gray'
     };
 
     // 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot(); 
+    Plotly.newPlot('bubble', bubbleData, bubbleLayout); 
   });
 }
