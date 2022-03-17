@@ -99,7 +99,7 @@ function buildCharts(sample) {
       mode: 'markers',
       text: labels,
       marker: {
-        size: sample_values,
+        size: values,
         color: ids,
         colorscale: 'rainbow'
       }  
