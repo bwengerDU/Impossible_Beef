@@ -95,7 +95,7 @@ function buildCharts(sample) {
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
       x: ids,
-      y: sample_values,
+      y: values,
       mode: 'markers',
       text: labels,
       marker: {
