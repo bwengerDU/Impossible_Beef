@@ -196,10 +196,10 @@ function buildCharts(sample) {
       margin: {t:0, b:0},
       paper_bgcolor: 'blue'
      
-    };
-
     // 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot('gauge', gaugeData, gaugeLayout);
+    Plotly.newPlot('gauge', gaugeData, gaugeLayout)
+
+    };
   });
 }
 }
