@@ -114,7 +114,7 @@ function buildCharts(sample) {
       mode: 'closest',
       height: 600,
       width: 800,
-      paper_bgcolor: 'gray',
+      paper_bgcolor: 'white',
       plot_bgcolor: 'white'
     };
 
@@ -194,9 +194,9 @@ function buildCharts(sample) {
       height: 400,
       margin: {t:0, b:0},
       paper_bgcolor: 'blue'
-    };
-    // 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot('gauge', gaugeData, gaugeLayout)
+    }
   });
+    // 6. Use Plotly to plot the gauge data and layout.
+    Plotly.newPlot('gauge', gaugeData, gaugeLayout);
 }
 }
