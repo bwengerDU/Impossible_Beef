@@ -86,7 +86,7 @@ function buildCharts(sample) {
 
 
     // 3. Create a variable that holds the washing frequency.
-    var washingFreq = parseflot(metaResult.wfreq);
+    var washingFreq = parseFloat(metaResult.wfreq);
     console.log(washingFreq);
    
     // Create the yticks for the bar chart.
