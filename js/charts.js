@@ -110,10 +110,10 @@ function buildCharts(sample) {
         axis: {range: [0,10]},
         steps: [
           {range: [0,2], color: "red"},
-          {range: [2,4], color: "blue"},
-          {range: [4,6], color: "purple"},
-          {range: [6,8], color: "orange"},
-          {range: [8,10], color: "yellow"},
+          {range: [2,4], color: "orange"},
+          {range: [4,6], color: "yellow"},
+          {range: [6,8], color: "purple"},
+          {range: [8,10], color: "green"},
         ],
         bar: {color: 'black'}
       }
@@ -126,7 +126,7 @@ function buildCharts(sample) {
       width: 600,
       height: 400,
       margin: {t:0, b:0},
-      paper_bgcolor: 'red'
+      paper_bgcolor: 'white'
      
     };
 
