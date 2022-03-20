@@ -123,7 +123,7 @@ function buildCharts(sample) {[
 
     // Deliverable 3
     // Create the buildChart function.
-  function buildCharts(sample) {
+    function buildCharts(sample) {
     // Use d3.json to load the samples.json file 
     d3.json("samples.json").then((data) => {
     console.log(data);
@@ -197,3 +197,4 @@ function buildCharts(sample) {[
     // 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot('gauge', gaugeData, gaugeLayout);
   });
+}
