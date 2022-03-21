@@ -120,11 +120,11 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot('bubble', bubbleData, bubbleLayout); 
   });
-    // Deliverable 3
-    // Create the buildChart function.
-    function buildCharts(sample) {
-    // Use d3.json to load the samples.json file 
-    d3.json("samples.json").then((data) => {
+// Deliverable 3
+// Create the buildChart function.
+function buildCharts(sample) {
+  // Use d3.json to load the samples.json file 
+  d3.json("samples.json").then((data) => {
     console.log(data);
 
     // Create a variable that holds the samples array. 
@@ -191,10 +191,10 @@ function buildCharts(sample) {
       height: 400,
       margin: {t:0, b:0},
       paper_bgcolor: 'cyan'
-    }
+    };
 
     // 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot('gauge', gaugeData, gaugeLayout);
   });
-  }
+}
 }
