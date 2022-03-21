@@ -67,7 +67,7 @@ function buildCharts(sample) {
     var  ids = result.otu_ids;
     var labels = result.otu_labels.slice(0, 10).reverse();
     var values = result.sample_values.slice(0,10).reverse();
-    
+
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
@@ -120,7 +120,7 @@ function buildCharts(sample) {
     Plotly.newPlot('bubble', bubbleData, bubbleLayout); 
   });
 
-  // Deliverable 3
+// Deliverable 3
 // Create the buildChart function.
 function buildCharts(sample) {
   // Use d3.json to load the samples.json file 
